@@ -9,12 +9,13 @@ void addNum(int* lst, int newNum, int* length){
 
 
 int main(){
-    int length = 0;
+    int* length = (int*)malloc(sizeof(int));
+    length[0] = 0;
     int* lst = (int*)malloc(10*sizeof(int));
     lst[0] = 10;
     //addNum(lst,25,length);
     //addNum(lst,323,length);
-    printf("%d\n",length);
+    printf("%d\n",*length);
     //printf("%d\n",lst[1]);
     //printf("%d\n",lst[2]);
     return 0;
