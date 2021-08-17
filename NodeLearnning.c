@@ -35,6 +35,12 @@ int main(){
         temp->name = (char*) malloc(20*sizeof(char));
         strcpy(temp->name,str);
         temp->next = NULL;
+        if(lst->head == NULL){
+            lst->head = temp;
+        }
+        else{
+            
+        }
         
     }
 
