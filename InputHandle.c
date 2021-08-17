@@ -15,7 +15,6 @@ int main(){
     char* str = (char* ) malloc(20*sizeof(char));
     //char* y;
     node* nd = (node*) malloc(sizeof(node));
-    nd = NULL;
     scanf("%s",str);
     //y = (char* ) malloc(strlen(str)*sizeof(char));
     //strcpy(y,str);
