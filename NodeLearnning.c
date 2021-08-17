@@ -32,7 +32,7 @@ void addToLst(node* nd,char* str){
     }
 
     else{
-        addToLst(nd->next,str);
+        return (addToLst(nd->next,str));
     }
 }
 
