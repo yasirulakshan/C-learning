@@ -40,7 +40,7 @@ void addToLst(node* nd,char* str){
 
 int main(){
     char* str = (char* ) malloc(20*sizeof(char));
-    list* lst = (list *)malloc(sizeof(lst));
+    list* lst = (list *)malloc(sizeof(list));
     lst->head = NULL;
     
     while (1){
